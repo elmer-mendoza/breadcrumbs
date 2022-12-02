@@ -1,0 +1,30 @@
+.modal {
+  position: absolute;
+  background-color: rgba(167, 164, 164, 0.397);
+  padding: 15px;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.crumbs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 40px;
+}
+.crumbs__listItem {
+  cursor: pointer;
+}
+.crumbs__listItem:hover > .modal {
+  visibility: visible;
+}
+.crumbs__listItem.lastItem {
+  position: relative;
+}/*# sourceMappingURL=breadcrumbs.css.map */

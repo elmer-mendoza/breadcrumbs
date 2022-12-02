@@ -1,0 +1,23 @@
+.fileDisplay {
+  width:100%;
+  max-width: 1000px;
+  padding: 0 30px;
+  height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  font-size: 20px;
+  margin:auto;
+  
+
+  &__display {
+    cursor: pointer;
+  }
+
+  &__icon {
+    transform: translateY(5px);
+    color: blue;
+    margin-right: 5px;
+  }
+}
